@@ -1,0 +1,34 @@
+{
+	"wifi": {
+		"ssid": "",
+		"password": "",
+		"ip": "",
+		"gw": "",
+		"netmask": ""
+	},
+	"thingspeak": {
+		"enabled": 0,
+		"apikey": ""
+	},
+	"awsiot" : {
+		"enabled": 0,
+		"endpoint" : "a32on3oilq3poc.iot.eu-west-1.amazonaws.com",
+		"port" : 8443
+	},
+	"ota" : {
+		"interval" : 3600
+	},
+	"sensor" : {
+		"config" : {
+			"indoor" 	: 	0,
+			"led"		:	1,
+			"fan"		:	1,
+			"heater"	:	1,
+			"measTime"	: 	60,
+			"warmUpTime":	30,
+			"measInterval": 300,
+			"test"		:	0,
+			"measStrategy":	0
+		}
+	}
+}
